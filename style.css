@@ -74,18 +74,23 @@ a:hover {
 }
 
 .hamburger-menu {
-    position: relative;
-    display: inline-block;
-}
-
-.hamburger-icon {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* horizontal alignment */
+    justify-content: space-between; /* pushes items apart */
+    align-items: center; /* vertical centering */
+    width: 100%;
+    padding: 0 1rem;
+    position: relative; /* for absolute menu placement */
+  }
+  
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
     height: 24px;
     width: 30px;
     cursor: pointer;
-}
+  }
 
 .hamburger-icon span {
 width: 100%;
@@ -104,5 +109,6 @@ transition: all 0.3 ease-in-out;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
 }
+
 
 
