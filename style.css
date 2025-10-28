@@ -17,7 +17,7 @@ html {
 }
 
 p {
-    color: aliceblue rgb(85,85,85);
+    color: rgb(85,85,85);
 
 }
 
@@ -27,7 +27,7 @@ a, .btn {
 transition: all 300ms ease;
 }
 
-/* Desktop NAV */
+/* DESKTOP NAV */
 
 nav, 
 .nav-links {
@@ -74,22 +74,18 @@ a:hover {
 }
 
 .hamburger-menu {
-    display: flex;
-    flex-direction: row; /* horizontal alignment */
-    justify-content: space-between; /* pushes items apart */
-    align-items: center; /* vertical centering */
-    width: 100%;
-    padding: 0 1rem;
-    position: relative; /* for absolute menu placement */
+    position: relative;
+    display: inline-block;
   }
   
   .hamburger-icon {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    height: 24px;
-    width: 30px;
-    cursor: pointer;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 24px;
+   width: 30px;
+   cursor: pointer;
+
   }
 
 .hamburger-icon span {
