@@ -380,7 +380,7 @@ article .icon {
     border-color: rgb(163, 163, 163);
  }
 
- /* CONTACT PAGE */ 
+ /* CONTACT */ 
 
  #contact {
   display: flex;
@@ -415,3 +415,20 @@ article .icon {
  .contact-icon {
   cursor: default;
  }
+
+ .email-icon {
+  height: 2.5rem;
+ }
+
+ /* FOOTER SECTION */
+
+ footer {
+  height: 26vh;
+  margin: 0 1rem;
+ }
+
+ footer p {
+  text-align: center;
+ }
+
+ 
