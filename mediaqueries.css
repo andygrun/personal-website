@@ -1,7 +1,12 @@
 
 @media screen and (max-width: 1400px) {
+    #contact,
+    #projects {
+    height: fit-content;
+}
     #profile {
-        height: 83vh;
+        min-height: 83vh;
+        height: auto;
         margin-bottom: 6rem;
     }
     .about-containers {
@@ -47,10 +52,13 @@
 @media screen and (max-width: 600px) {
     #contact,
     footer {
-        height: 40vh;
+        min-height: 40vh;
+        height: auto;
+
     }
     #profile {
-        height: 83vh;
+        min-height: 83vh;
+        height: auto;
         margin-bottom: 0;
     }
     article {
@@ -71,7 +79,7 @@
         font-size: 1rem;
     } 
     .experience-sub-title {
-        font-size: 1.25rem
+        font-size: 1.25rem;
     }
     .logo {
         font-size: 1.5rem;
@@ -83,7 +91,7 @@
     }
     .section__pic-container {
         width: auto;
-        height: 46vh;
+        height: 46vw;
         justify-content: center;
     }
     .section__text__p2 {
